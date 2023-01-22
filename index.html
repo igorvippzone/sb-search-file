@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Поиск файла</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Поиск данных из файла</h1>
+    <div class="custom__file-input">
+      <input type="file" name="file" id="file" class="hidden" />
+      <label for="file">Выберите файл</label>
+      <p class="name-file"></p>
+    </div>
+
+    <div class="search__wrapper hidden">
+      <label for="search">Поиск:</д>
+      <input type="text" id="search" placeholder="Введите минимум 3 символа" />
+      <p id="result"></p>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
